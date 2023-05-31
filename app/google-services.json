@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936038230882",
+    "firebase_url": "https://my-project-9997-bf124-default-rtdb.firebaseio.com",
+    "project_id": "my-project-9997-bf124",
+    "storage_bucket": "my-project-9997-bf124.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936038230882:android:267d9758ae58691c841a3b",
+        "android_client_info": {
+          "package_name": "com.example.weearthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936038230882-5rpt77umq3k5tkjrh78gfj5bc91l3d5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weearthapp",
+            "certificate_hash": "0e6a2ef4220114d1033eecd580a050fb51fc8b7d"
+          }
+        },
+        {
+          "client_id": "936038230882-g4u6a30i27euko5d724ac18vqj8133bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1STU8X8GR1tXzpb4004Q3kzxZVXwcFjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936038230882-g4u6a30i27euko5d724ac18vqj8133bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
