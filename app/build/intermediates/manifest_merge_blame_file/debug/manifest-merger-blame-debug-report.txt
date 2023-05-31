@@ -1,0 +1,381 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weearthapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:6:5-44
+8        android:minSdkVersion="19"
+8-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:6:15-41
+9        android:targetSdkVersion="30" />
+9-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:6:5-44
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:8:5-79
+11-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:8:22-76
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:9:5-80
+12-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:10:5-97
+13-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:10:22-95
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:11:5-80
+14-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.READ_CALENDAR" />
+15-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:12:5-72
+15-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:12:22-69
+16    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+16-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:13:5-73
+16-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:13:22-70
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:14:5-80
+17-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:14:22-77
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:15:5-67
+18-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:15:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+19-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+26
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+31-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+31-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:22-65
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+32-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+33
+34    <application
+34-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:17:5-47:19
+35        android:allowBackup="true"
+35-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:18:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/a1c2a19c80f8fc2ea921f83edbc9f888/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:19:9-43
+39        android:label="RcFlud"
+39-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:20:9-31
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:21:9-54
+41        android:supportsRtl="true"
+41-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:22:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.WeEarthApp" >
+43-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:23:9-48
+44        <meta-data
+44-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:25:9-27:71
+45            android:name="com.google.android.geo.API_KEY"
+45-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:26:13-58
+46            android:value="AIzaSyBCFEkKKrFvhumJwk7vtt3OyZ4Gv70f_DA" />
+46-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:27:13-68
+47
+48        <activity
+48-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:29:9-31:59
+49            android:name="com.example.weearthapp.MapsActivity"
+49-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:30:13-41
+50            android:label="@string/title_activity_maps" />
+50-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:31:13-56
+51        <activity android:name="com.example.weearthapp.MainActivity" >
+51-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:32:9-38:20
+51-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:32:19-47
+52            <intent-filter>
+52-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:33:13-37:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:34:17-69
+53-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:34:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:36:17-77
+55-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:36:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.example.weearthapp.SignUpActivity" />
+58-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:39:9-52
+58-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:39:19-49
+59        <activity android:name="com.example.weearthapp.SignInActivity" />
+59-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:40:9-52
+59-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:40:19-49
+60        <activity android:name="com.example.weearthapp.ResetPasswordActivity" />
+60-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:41:9-59
+60-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:41:19-56
+61        <activity android:name="com.example.weearthapp.HomeActivity" />
+61-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:42:9-50
+61-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:42:19-47
+62        <activity android:name="com.example.weearthapp.EditProfileActivity" />
+62-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:43:9-57
+62-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:43:19-54
+63        <activity android:name="com.example.weearthapp.ProfileActivity" />
+63-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:44:9-53
+63-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:44:19-50
+64        <activity android:name="com.example.weearthapp.DiaryActivity" />
+64-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:45:9-51
+64-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:45:19-48
+65        <activity android:name="com.example.weearthapp.CalendarActivity" />
+65-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:46:9-54
+65-->/Users/aleksandrserbakov/Desktop/Recycling-App-Java-main/app/src/main/AndroidManifest.xml:46:19-51
+66        <activity
+66-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+67            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+67-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+71-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+72            <intent-filter>
+72-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+73-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+77
+78                <data
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+79                    android:host="firebase.auth"
+79-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+80                    android:path="/"
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+81                    android:scheme="genericidp" />
+81-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+85            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+86            android:excludeFromRecents="true"
+86-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+87            android:exported="true"
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+88            android:launchMode="singleTask"
+88-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+89-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+90            <intent-filter>
+90-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+91-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+95
+96                <data
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+97                    android:host="firebase.auth"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+98                    android:path="/"
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+99                    android:scheme="recaptcha" />
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+100            </intent-filter>
+101        </activity>
+102
+103        <service
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+104            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+104-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+105            android:enabled="true"
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+108                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+111            </intent-filter>
+112        </service>
+113        <service
+113-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+118                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-auth:21.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/af8463f58ec4b49f5f50940c6d288c95/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-storage:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/03358e67d5b60e99a96328d96613f09e/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+121                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+121-->[com.google.firebase:firebase-storage:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/03358e67d5b60e99a96328d96613f09e/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-storage:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/03358e67d5b60e99a96328d96613f09e/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-database:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/f9bee1bc2bbbdcea38f7d163699ef3df/transformed/jetified-firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+124                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+124-->[com.google.firebase:firebase-database:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/f9bee1bc2bbbdcea38f7d163699ef3df/transformed/jetified-firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-database:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/f9bee1bc2bbbdcea38f7d163699ef3df/transformed/jetified-firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+127                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+127-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/0110a55d106427847d531cff1b9b8276/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+130                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+130-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/0110a55d106427847d531cff1b9b8276/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/0110a55d106427847d531cff1b9b8276/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-installations:17.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/0f5dd5d0d3e5e44253ac96de24abdcaf/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+133                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+133-->[com.google.firebase:firebase-installations:17.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/0f5dd5d0d3e5e44253ac96de24abdcaf/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-installations:17.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/0f5dd5d0d3e5e44253ac96de24abdcaf/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+135        </service>
+136
+137        <provider
+137-->[com.squareup.picasso:picasso:2.71828] /Users/aleksandrserbakov/.gradle/caches/transforms-3/a5f552c9a7857d84ab2dda3174bf195a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+138            android:name="com.squareup.picasso.PicassoProvider"
+138-->[com.squareup.picasso:picasso:2.71828] /Users/aleksandrserbakov/.gradle/caches/transforms-3/a5f552c9a7857d84ab2dda3174bf195a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+139            android:authorities="com.example.weearthapp.com.squareup.picasso"
+139-->[com.squareup.picasso:picasso:2.71828] /Users/aleksandrserbakov/.gradle/caches/transforms-3/a5f552c9a7857d84ab2dda3174bf195a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+140            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+140-->[com.squareup.picasso:picasso:2.71828] /Users/aleksandrserbakov/.gradle/caches/transforms-3/a5f552c9a7857d84ab2dda3174bf195a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+141        <uses-library
+141-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+142            android:name="org.apache.http.legacy"
+142-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+143            android:required="false" />
+143-->[com.google.android.gms:play-services-maps:17.0.1] /Users/aleksandrserbakov/.gradle/caches/transforms-3/517319420eecead2d5c33291bfe3c193/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+144
+145        <receiver
+145-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+146            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+146-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+147            android:exported="true"
+147-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+149            <intent-filter>
+149-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+150-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+151            </intent-filter>
+152        </receiver>
+153        <!--
+154             FirebaseMessagingService performs security checks at runtime,
+155             but set to not exported to explicitly avoid allowing another app to call it.
+156        -->
+157        <service
+157-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+158            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+158-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+159            android:directBootAware="true"
+159-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+160            android:exported="false" >
+160-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+161            <intent-filter android:priority="-500" >
+161-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+161-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
+162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+162-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+162-->[com.google.firebase:firebase-messaging:22.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/54aa9f4125469bb65ccd279c55be02a9/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+163            </intent-filter>
+164        </service>
+165
+166        <activity
+166-->[com.google.android.gms:play-services-base:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1e41b57bcb9bbfda52d936814214f5b3/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1e41b57bcb9bbfda52d936814214f5b3/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1e41b57bcb9bbfda52d936814214f5b3/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1e41b57bcb9bbfda52d936814214f5b3/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+170
+171        <provider
+171-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+172            android:name="com.google.firebase.provider.FirebaseInitProvider"
+172-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+173            android:authorities="com.example.weearthapp.firebaseinitprovider"
+173-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+174            android:directBootAware="true"
+174-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+175            android:exported="false"
+175-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+176            android:initOrder="100" />
+176-->[com.google.firebase:firebase-common:20.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/906c3ed6a30dff76aa855310d8b06be3/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+177
+178        <meta-data
+178-->[com.google.android.gms:play-services-basement:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/84bde0d92cfbe723e40c1f02a04ea7cf/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+179            android:name="com.google.android.gms.version"
+179-->[com.google.android.gms:play-services-basement:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/84bde0d92cfbe723e40c1f02a04ea7cf/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+180            android:value="@integer/google_play_services_version" />
+180-->[com.google.android.gms:play-services-basement:17.5.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/84bde0d92cfbe723e40c1f02a04ea7cf/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+181
+182        <service
+182-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/131cab84e8897f4879fe5ca4f10e9fe4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+183            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+183-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/131cab84e8897f4879fe5ca4f10e9fe4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+184            android:exported="false" >
+184-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/131cab84e8897f4879fe5ca4f10e9fe4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+185            <meta-data
+185-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/131cab84e8897f4879fe5ca4f10e9fe4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+186                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+186-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/131cab84e8897f4879fe5ca4f10e9fe4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+187                android:value="cct" />
+187-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/131cab84e8897f4879fe5ca4f10e9fe4/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+188        </service>
+189        <service
+189-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+190            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+190-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+191            android:exported="false"
+191-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+192            android:permission="android.permission.BIND_JOB_SERVICE" >
+192-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+193        </service>
+194
+195        <receiver
+195-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+196            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+196-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+197            android:exported="false" />
+197-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/aleksandrserbakov/.gradle/caches/transforms-3/1a05452871360b0f32e2b60e228972d8/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+198    </application>
+199
+200</manifest>
